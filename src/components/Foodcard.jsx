@@ -14,7 +14,7 @@ function ProductCard({ allFood, loading }) {
             const { image, label, calories, dishType, cuisineType } = item.recipe
             return (
               <div className="p-2 md:w-1/4 w-full" key={index}>
-                <div className="bg-red-200 p-3 rounded-2xl shadow-lg hover:-translate-y-1 border-2 border-gray-600">
+                <div className="bg-slate-200 p-3 rounded-2xl shadow-lg hover:-translate-y-1 border-2 border-gray-600">
                   <img className='rounded-lg w-full mb-2' src={image} alt="" />
                   <h2 className='text-xl text-black font-bold'>{label.substr(0, 25)}</h2>
                   <h2 className='text-lg text-black'><span className="font-bold">Calories:</span> {calories}</h2>

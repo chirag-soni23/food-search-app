@@ -28,7 +28,7 @@ const fetchFood = async () => {
       <Searchbar search={search} setSearch={setSearch} fetchFood={fetchFood}/>
       <Foodcard allFood={allFood} loading={loading}/>
 
-      
+    
     </div>
     
   )
